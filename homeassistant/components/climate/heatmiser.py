@@ -66,6 +66,7 @@ def setup_platform(hass, config, add_entities, discovery_info=None):
 class HeatmiserUH1(ClimateDevice):
     def __init__(self, uh1):
         self.uh1 = uh1
+        self_name = "UH1"
 
     def temperature_unit(self):
         return TEMP_CELSIUS
