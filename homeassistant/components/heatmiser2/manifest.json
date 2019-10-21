@@ -1,0 +1,15 @@
+{
+  "domain": "heatmiser2",
+  "name": "Heatmiser",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/heatmiser2",
+  "requirements": [
+    "heatmiserV3===1.1.9"
+  ],
+  "ssdp": {},
+  "homekit": {},
+  "dependencies": [],
+  "codeowners": [
+    "@andylockran"
+  ]
+}
