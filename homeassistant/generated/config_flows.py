@@ -25,6 +25,7 @@ FLOWS = [
     "glances",
     "gpslogger",
     "hangouts",
+    "heatmiser2",
     "heos",
     "homekit_controller",
     "homematicip_cloud",

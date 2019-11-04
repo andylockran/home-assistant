@@ -16,7 +16,7 @@ class HeatmiserFlowHandler(config_entries.ConfigFlow, domain=DOMAIN):
     CONNECTION_CLASS = config_entries.CONN_CLASS_LOCAL_POLL
 
     def __init__(self):
-        """Initialize the ecobee flow."""
+        """Initialize the heatmiser flow."""
         self._uh1 = None
 
     async def async_step_user(self, user_input=None):

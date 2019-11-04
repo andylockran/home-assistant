@@ -1,0 +1,21 @@
+{
+    "config": {
+        "abort": {
+            "one_instance_only": "This integration currently supports only one UH1 instance."
+        },
+        "error": {
+            "pin_request_failed": "Error requesting PIN from ecobee; please verify API key is correct.",
+            "token_request_failed": "Error requesting tokens from ecobee; please try again."
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "api_key": "API Key"
+                },
+                "description": "Please enter the API key obtained from ecobee.com.",
+                "title": "ecobee API key"
+            }
+        },
+        "title": "heatmiser"
+    }
+}

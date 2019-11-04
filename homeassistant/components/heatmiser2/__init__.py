@@ -12,7 +12,7 @@ from .hub import UH1Entity
 
 CONFIG_SCHEMA = vol.Schema(
     {
-        vol.Optional(DOMAIN): {
+        vol.Required(DOMAIN): {
             vol.Required(CONF_HOST): cv.string,
             vol.Required(CONF_PORT): cv.port,
         }
